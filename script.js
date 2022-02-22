@@ -41,6 +41,9 @@ document.querySelector('.check').addEventListener('click', function () {
   // WHEN PLAYER WINS
   else if (guess === randomNumber) {
     changeMessage('🎉 Correct Number!');
+    //
+    document.querySelector('h1').textContent = 'BORJA COMPRATE UNA SILLA COMO LA GENTE';
+    //
     changeNumber(randomNumber);
     changeBackground('#60b347');
     changeWidth('30rem');
